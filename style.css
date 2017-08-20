@@ -12,9 +12,24 @@ header, footer {
     background: #1DB0B8;
     color: #fff;
 }
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
 footer {
     width: 100%;
     position: fixed;
     bottom: 0;
     text-align: center;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    background: #37C6C0;
+    z-index: 2;
+    display: none;
 }
