@@ -13,5 +13,16 @@
     </header>
     <footer>&copy;2017&nbsp;@lcx960324</footer>
     <div class="sidebar" id="sidebar"></div>
+    <script>
+        const sidebarSwitch = document.getElementById('sidebar-switch')
+        const side = document.getElementById('sidebar') // 'sidebar' is a GLOBAL property.
+        sidebarSwitch.addEventListener('click', function () {
+            console.log('123')
+            side.style.display = 'block'
+        })
+        sidebar.addEventListener('click', function () {
+            side.style.display = null
+        })
+    </script>
 </body>
 </html>
