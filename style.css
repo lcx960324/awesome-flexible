@@ -3,9 +3,12 @@
     padding: 0;
     font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
 }
+/*
 html, body {
     height: 100%;
+    overflow: auto;
 }
+*/
 header, footer {
     height: 64px;
     line-height: 64px;    
@@ -34,8 +37,15 @@ footer {
     display: none;
 }
 .content {
-    padding-top: 64px; 
-    padding-bottom: 64px; /* Margin-bottom will be ignored under mobile browser. */
+    /* 
+    margin-top: 64px; 
+    margin-bottom: 64px;
+    */
+    /* 
+        Margin-bottom will be squeezed out of the viewport under mobile browser unless 'overflow: auto' is added on body & html element.
+    */
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 .content .content-block {
     height: 300px;
