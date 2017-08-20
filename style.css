@@ -34,10 +34,8 @@ footer {
     display: none;
 }
 .content {
-    height: 100%;
     padding-top: 64px;
     padding-bottom: 64px;
-    overflow: auto;
 }
 .content .content-block {
     height: 300px;
