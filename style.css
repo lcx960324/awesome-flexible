@@ -33,3 +33,13 @@ footer {
     z-index: 2;
     display: none;
 }
+.content {
+    height: 100%;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    overflow: auto;
+}
+.content .content-block {
+    height: 300px;
+    border: solid 1px #000;
+}
