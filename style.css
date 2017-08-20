@@ -35,7 +35,7 @@ footer {
 }
 .content {
     padding-top: 64px; 
-    padding-bottom: 64px; /* Safari will ignore margin-bottom for no reason. */
+    padding-bottom: 64px; /* Margin-bottom will be ignored under mobile browser. */
 }
 .content .content-block {
     height: 300px;
